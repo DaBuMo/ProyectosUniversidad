@@ -1,0 +1,28 @@
+Calculadora polaca echa con estructuras de datos abstractos.
+La calculadora leerá exclusivamente de entrada estándar (no toma argumentos por línea de comantos), interpretando cada línea como una operación en notación polaca inversa (también llamada notación posfija, en inglés reverse Polish notation); para cada línea, se imprimirá por salida estándar el resultado del cálculo.
+
+Ejemplo de varias operaciones, y su resultado:
+
+$ cat oper.txt
+5 3 +
+5 3 -
+5 3 /
+3 5 8 + +
+3 5 8 + -
+3 5 - 8 +
+2 2 + +
+0 1 ?
+1 -1 0 ?
+5 sqrt
+
+$ ./dc < oper.txt
+8
+2
+1
+16
+-10
+6
+ERROR
+ERROR
+-1
+2
