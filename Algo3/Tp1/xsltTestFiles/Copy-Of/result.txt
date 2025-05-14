@@ -1,0 +1,8 @@
+<algo>
+  <nombre>
+    Juan
+  </nombre>
+  <nombre>
+    Juan
+  </nombre>
+</algo>

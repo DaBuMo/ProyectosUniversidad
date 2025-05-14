@@ -1,0 +1,26 @@
+<escuela>
+    <nombre>
+        Escuela Primaria
+    </nombre>
+    <alumnos>
+        <nombre>
+            Gran centro comunitario de alumnos del universo
+        </nombre>
+        <alumno order="5">
+            <nombre>
+                Juan
+            </nombre>
+            <edad>
+                10
+            </edad>
+        </alumno>
+        <alumno order="1">
+            <nombre>
+                Maria
+            </nombre>
+            <edad>
+                9
+            </edad>
+        </alumno>
+    </alumnos>
+</escuela>
